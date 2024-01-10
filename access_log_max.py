@@ -779,9 +779,6 @@ if __name__ == "__main__":
                 """
                 print(f"シャットダウンする,,{host_name}, {vm_pass}")
                 """
-                # user_name = "c0a21037"
-                # host_name = "192.168.100.226"
-                # vm_pass = "vm2"
 
                 # 実行したいコマンド
                 command = f'ssh -i /home/c0a21151/.ssh/id_ed25519 {user_name}@{host_name} "echo {vm_pass} | sudo -S shutdown -h now"'
